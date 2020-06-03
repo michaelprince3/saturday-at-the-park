@@ -6,6 +6,7 @@ import useSimpleAuth from "../auth/useSimpleAuth"
 
 
 const MyItinerary = props => {
+    
     const [itineraryList, setItineraryList] = useState([])
     const { isAuthenticated } = useSimpleAuth()
 
